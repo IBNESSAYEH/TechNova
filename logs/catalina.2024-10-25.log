@@ -1,0 +1,323 @@
+25-Oct-2024 12:38:55.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 12:38:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 12:38:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 12:38:55.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 12:38:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 12:38:55.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 12:38:55.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=60846:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 12:38:55.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 12:38:55.746 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 12:38:55.998 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 12:38:56.025 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [573] millisecondes
+25-Oct-2024 12:38:56.081 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 12:38:56.081 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 12:38:56.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 12:38:57.929 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 12:38:58.049 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Oct-2024 12:38:59.013 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 962 ms
+25-Oct-2024 12:38:59.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [2 939] ms
+25-Oct-2024 12:38:59.041 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 12:38:59.073 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [3047] millisecondes
+25-Oct-2024 17:31:05.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 17:31:05.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 17:31:05.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 17:31:05.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 17:31:05.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 17:31:05.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 17:31:05.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 17:31:05.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 17:31:05.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 17:31:05.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 17:31:05.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 17:31:05.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 17:31:05.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 17:31:05.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 17:31:05.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 17:31:05.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 17:31:05.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 17:31:05.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 17:31:05.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 17:31:05.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 17:31:05.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 17:31:05.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=61016:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 17:31:05.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 17:31:05.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 17:31:06.377 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 17:31:06.426 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1437] millisecondes
+25-Oct-2024 17:31:06.541 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 17:31:06.541 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 17:31:06.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 17:31:09.673 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 17:31:09.861 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+25-Oct-2024 17:31:11.102 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1238 ms
+25-Oct-2024 17:31:11.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [4 552] ms
+25-Oct-2024 17:31:11.126 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 17:31:11.175 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4749] millisecondes
+25-Oct-2024 22:12:00.721 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+25-Oct-2024 22:12:00.828 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+25-Oct-2024 22:12:00.843 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:12:00.868 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:12:09.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 22:12:09.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 22:12:09.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:12:09.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:12:09.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=54600:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 22:12:09.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 22:12:09.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 22:12:09.888 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:12:09.910 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [593] millisecondes
+25-Oct-2024 22:12:09.959 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 22:12:09.960 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 22:12:09.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 22:12:13.160 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:12:14.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [4 215] ms
+25-Oct-2024 22:12:14.201 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:12:14.247 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [4336] millisecondes
+25-Oct-2024 22:14:10.636 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+25-Oct-2024 22:14:10.771 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+25-Oct-2024 22:14:10.779 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:14:10.782 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:14:13.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 22:14:13.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 22:14:13.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:14:13.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:14:13.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 22:14:13.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 22:14:13.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 22:14:13.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 22:14:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 22:14:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:14:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:14:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 22:14:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 22:14:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 22:14:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=55447:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 22:14:13.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 22:14:13.479 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 22:14:13.729 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:14:13.754 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [488] millisecondes
+25-Oct-2024 22:14:13.796 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 22:14:13.796 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 22:14:13.804 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 22:14:16.413 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:14:17.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [3 350] ms
+25-Oct-2024 22:14:17.162 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:14:17.206 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [3451] millisecondes
+25-Oct-2024 22:17:47.408 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Rechargement du contexte [/TechNova]
+25-Oct-2024 22:17:47.409 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/TechNova] a démarré
+25-Oct-2024 22:17:52.507 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:17:52.906 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Un ou plusieurs écouteurs n'ont pas pu démarrer, les détails sont dans le fichier de log du conteneur
+25-Oct-2024 22:17:52.907 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Erreur de démarrage du contexte [/TechNova] suite aux erreurs précédentes
+25-Oct-2024 22:17:52.928 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+25-Oct-2024 22:18:42.972 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Rechargement du contexte [/TechNova]
+25-Oct-2024 22:18:47.258 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+25-Oct-2024 22:18:47.432 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+25-Oct-2024 22:18:47.977 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:18:50.079 INFO [Catalina-utility-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-Oct-2024 22:18:50.424 INFO [Catalina-utility-2] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-Oct-2024 22:18:50.619 INFO [Catalina-utility-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-Oct-2024 22:18:52.982 WARN [Catalina-utility-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-Oct-2024 22:18:59.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 22:18:59.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 22:18:59.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 22:18:59.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 22:18:59.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 22:18:59.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 22:18:59.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 22:18:59.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 22:18:59.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 22:18:59.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:18:59.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:18:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 22:18:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 22:18:59.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 22:18:59.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 22:18:59.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 22:18:59.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:18:59.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:18:59.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 22:18:59.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 22:18:59.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 22:18:59.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=55484:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 22:18:59.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 22:18:59.750 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 22:18:59.991 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:19:00.019 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [471] millisecondes
+25-Oct-2024 22:19:00.063 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 22:19:00.064 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 22:19:00.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 22:19:02.922 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:19:03.946 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-Oct-2024 22:19:04.081 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-Oct-2024 22:19:04.169 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-Oct-2024 22:19:05.167 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-Oct-2024 22:19:06.814 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-Oct-2024 22:19:06.965 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+25-Oct-2024 22:19:06.966 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning constraint "uk_6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+25-Oct-2024 22:19:07.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [7 887] ms
+25-Oct-2024 22:19:07.965 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:19:07.979 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [7960] millisecondes
+25-Oct-2024 22:19:20.517 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23502
+25-Oct-2024 22:19:20.518 ERROR [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: null value in column "first_name" of relation "users" violates not-null constraint
+  Détail : Failing row contains (1, null, null, null, null, null, null, gelutu@mailinator.com, Daphne, Estes, Pa$$w0rd!).
+25-Oct-2024 22:24:13.446 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+25-Oct-2024 22:24:13.582 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+25-Oct-2024 22:24:13.602 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [TechNova] a enregistré un pilote JDBC [org.postgresql.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+25-Oct-2024 22:24:13.607 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:24:13.624 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:24:16.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 22:24:16.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 22:24:16.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:24:16.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:24:16.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 22:24:16.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 22:24:16.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 22:24:16.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 22:24:16.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 22:24:16.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:24:16.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:24:16.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 22:24:16.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 22:24:16.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 22:24:16.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=55515:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 22:24:16.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 22:24:16.354 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 22:24:16.599 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:24:16.624 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [477] millisecondes
+25-Oct-2024 22:24:16.675 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 22:24:16.675 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 22:24:16.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 22:24:19.380 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:24:20.542 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-Oct-2024 22:24:20.694 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-Oct-2024 22:24:20.783 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-Oct-2024 22:24:21.883 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-Oct-2024 22:24:23.576 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-Oct-2024 22:24:23.688 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning SQL Warning Code: 0, SQLState: 00000
+25-Oct-2024 22:24:23.688 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning constraint "uk_6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+25-Oct-2024 22:24:24.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [8 005] ms
+25-Oct-2024 22:24:24.697 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:24:24.713 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [8088] millisecondes
+25-Oct-2024 22:28:21.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 22:28:21.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:28:21.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 22:28:21.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 22:28:21.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 22:28:21.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=53826:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 22:28:21.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 22:28:21.981 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 22:28:22.449 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:28:22.477 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [911] millisecondes
+25-Oct-2024 22:28:22.559 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 22:28:22.559 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 22:28:22.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 22:28:26.850 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:28:28.156 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-Oct-2024 22:28:28.369 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-Oct-2024 22:28:28.469 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-Oct-2024 22:28:29.639 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-Oct-2024 22:28:31.471 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-Oct-2024 22:28:32.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [10 097] ms
+25-Oct-2024 22:28:32.681 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:28:32.703 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [10225] millisecondes
+25-Oct-2024 22:30:04.818 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+25-Oct-2024 22:30:10.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.30
+25-Oct-2024 22:30:10.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 13 2024 20:26:16 UTC
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.30.0
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 10
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-17
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      17.0.11+7-LTS-207
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:30:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:30:10.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2024 22:30:10.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2024 22:30:10.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2024 22:30:10.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2024 22:30:10.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2024 22:30:10.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+25-Oct-2024 22:30:10.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\Youcode\IdeaProjects\TechNova
+25-Oct-2024 22:30:10.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\Youcode\IdeaProjects\TechNova\temp
+25-Oct-2024 22:30:10.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\Youcode\IdeaProjects\TechNova\conf\logging.properties
+25-Oct-2024 22:30:10.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2024 22:30:10.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\lib\idea_rt.jar=58057:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin
+25-Oct-2024 22:30:10.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dfile.encoding=UTF-8
+25-Oct-2024 22:30:10.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Users\Youcode\AppData\Local\Microsoft\WindowsApps;C:\Users\Youcode\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.0.2\bin;;C:\Users\Youcode\AppData\Roaming\npm;.]
+25-Oct-2024 22:30:10.661 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:30:10.688 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [537] millisecondes
+25-Oct-2024 22:30:10.735 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+25-Oct-2024 22:30:10.735 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.30]
+25-Oct-2024 22:30:10.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Déploiement du descripteur de configuration [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml]
+25-Oct-2024 22:30:13.532 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+25-Oct-2024 22:30:14.610 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default]
+25-Oct-2024 22:30:14.751 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.4.4.Final
+25-Oct-2024 22:30:14.860 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+25-Oct-2024 22:30:15.913 WARN [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+25-Oct-2024 22:30:17.637 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-Oct-2024 22:30:18.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Le traitement du descripteur de déploiement [C:\Users\Youcode\IdeaProjects\TechNova\conf\Catalina\localhost\TechNova.xml] a pris [8 012] ms
+25-Oct-2024 22:30:18.766 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+25-Oct-2024 22:30:18.780 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [8091] millisecondes
