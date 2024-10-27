@@ -1,35 +1,43 @@
-# Inversion de Contrôle (IoC) et Injection de Dépendances (DI)
+# Spring Framework Core Concepts
 
-L'**Inversion de Contrôle (IoC)** et l'**Injection de Dépendances (DI)** sont deux concepts fondamentaux en programmation orientée objet, surtout dans le contexte des frameworks comme Spring. Voici une explication :
+This documentation covers the fundamental concepts of Spring Framework, including Inversion of Control (IoC), Dependency Injection (DI), and various Spring components.
 
-## Inversion de Contrôle (IoC)
+## Table of Contents
+- [Inversion of Control (IoC) and Dependency Injection (DI)](#inversion-of-control-ioc-and-dependency-injection-di)
+    - [IoC Explained](#ioc-explained)
+    - [Types of Dependency Injection](#types-of-dependency-injection)
+    - [Benefits](#benefits)
+- [Spring Beans](#spring-beans)
+    - [Bean Scopes](#bean-scopes)
+- [Application Context](#application-context)
+- [Component Scanning](#component-scanning)
+- [Spring Data JPA](#spring-data-jpa)
+- [Spring MVC](#spring-mvc)
 
-L'IoC est un principe de conception où le contrôle de la création et de la gestion des objets est inversé. Au lieu que le code soit responsable de la création des objets dont il a besoin (c'est-à-dire, en utilisant des appels `new`), ce contrôle est délégué à un conteneur ou un framework. Cela permet de rendre le code plus flexible et modulaire.
+## Inversion of Control (IoC) and Dependency Injection (DI)
 
-**Exemple :**
-Dans un code sans IoC, vous avez souvent quelque chose comme :
+### IoC Explained
+IoC is a design principle where the control of object creation and management is inverted from the application code to a container. Instead of creating objects directly with `new` operators, the container handles object lifecycle management.
 
+**Traditional Approach:**
 ```java
 Service service = new Service();
 Controller controller = new Controller(service);
-Avec IoC, c'est le conteneur (comme Spring) qui crée et gère les objets, donc votre code n'a pas besoin de se soucier de cette création :
+```
 
-
+**IoC Approach:**
+```java
 @Controller
 public class MyController {
     @Autowired
     private Service service;
 }
-Ici, c'est le conteneur Spring qui se charge de créer et d'injecter l'objet Service dans MyController.
+```
 
-Injection de Dépendances (DI)
-L'Injection de Dépendances est une implémentation du principe IoC. Elle consiste à injecter les dépendances d'une classe (les objets dont elle dépend) depuis l'extérieur, au lieu de les créer elle-même. DI facilite le test et la maintenance du code, car vous pouvez facilement remplacer une dépendance par une autre (par exemple, une implémentation de test).
+### Types of Dependency Injection
 
-Il existe trois types d'injection de dépendances :
-
-Injection par le constructeur : Les dépendances sont passées via le constructeur de la classe.
-
-
+1. **Constructor Injection**
+```java
 public class Controller {
     private Service service;
 
@@ -37,9 +45,10 @@ public class Controller {
         this.service = service;
     }
 }
-Injection par les setters (ou méthodes) : Les dépendances sont injectées via des méthodes setter.
+```
 
-
+2. **Setter Injection**
+```java
 public class Controller {
     private Service service;
 
@@ -47,15 +56,91 @@ public class Controller {
         this.service = service;
     }
 }
-Injection par les champs (attributs) : C'est souvent utilisé dans des frameworks comme Spring avec des annotations comme @Autowired.
+```
 
-
+3. **Field Injection**
+```java
 public class Controller {
     @Autowired
     private Service service;
 }
-Pourquoi utiliser IoC et DI ?
-Modularité : Vous pouvez remplacer facilement des composants sans changer le code qui les utilise.
-Facilité de test : Vous pouvez injecter des objets mock ou de test pour isoler des parties de votre application.
-Maintenance : Le code devient plus facile à maintenir car les dépendances sont explicites et gérées par le conteneur.
-En résumé, IoC signifie que le framework gère le cycle de vie et les interactions des objets, tandis que DI est la méthode par laquelle les objets nécessaires sont fournis (injectés) à la classe, plutôt que d'être créés par elle-même.
+```
+
+### Benefits
+- **Modularité**: Easy component replacement without changing dependent code
+- **Testability**: Simple mock injection for isolated testing
+- **Maintenance**: Explicit dependencies managed by the container
+
+## Spring Beans
+
+Spring Beans are objects managed by the Spring IoC container. They can be defined using XML configuration or annotations.
+
+**XML Configuration Example:**
+```xml
+<bean id="myBean" class="com.example.MyClass"/>
+```
+
+### Bean Scopes
+- **Singleton**: Single instance per Spring container (default)
+- **Prototype**: New instance for each request
+- **Request**: Web-specific scope per HTTP request
+- **Session**: Web-specific scope per HTTP session
+- **Global Session**: Web-specific scope per global session
+
+## Application Context
+
+ApplicationContext is Spring's main IoC container that manages beans, configurations, and lifecycles.
+
+```java
+ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+MyBean myBean = context.getBean(MyBean.class);
+```
+
+## Component Scanning
+
+Component scanning automatically detects Spring-managed components using stereotype annotations.
+
+```java
+@Configuration
+@ComponentScan(basePackages = "com.example")
+public class AppConfig {
+}
+```
+
+Common stereotype annotations:
+- `@Component`
+- `@Service`
+- `@Repository`
+- `@Controller`
+
+## Spring Data JPA
+
+Spring Data JPA simplifies database operations by providing repository interfaces with built-in CRUD operations.
+
+```java
+public interface UserRepository extends JpaRepository<User, Long> {
+    List<User> findByLastName(String lastName);
+}
+```
+
+## Spring MVC
+
+Spring MVC implements the Model-View-Controller pattern for web applications.
+
+**Controller Example:**
+```java
+@Controller
+public class HomeController {
+    @RequestMapping("/home")
+    public String home() {
+        return "home";
+    }
+}
+```
+
+---
+
+For more detailed information, please refer to the official Spring documentation:
+- [Spring Framework Documentation](https://docs.spring.io/spring-framework/reference/)
+- [Spring Data JPA Documentation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
+- [Spring MVC Documentation](https://docs.spring.io/spring-framework/reference/web/webmvc.html)

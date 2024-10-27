@@ -23,8 +23,8 @@
             <td>${user.firstName}</td>
             <td>${user.lastName}</td>
             <td>
-                <a href="/${user.id}/user-edit">Edit</a>
-                <a href="/${user.id}/user-delete">Delete</a>
+                <a href="${pageContext.request.contextPath}/${user.id}/user-edit">Edit</a>
+                <a href="${pageContext.request.contextPath}/${user.id}/user-delete">Delete</a>
             </td>
         </tr>
     </c:forEach>
